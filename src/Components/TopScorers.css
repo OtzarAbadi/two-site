@@ -1,0 +1,26 @@
+.top-scorers-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.top-scorers-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffdf8;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.top-scorers-container th,
+.top-scorers-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.top-scorers-container th {
+    background-color: #f0e8dc;
+    color: #333;
+    font-weight: bold;
+}

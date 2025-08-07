@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f1ea;
+    color: #1a1a1a;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fffdf8;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0e8dc;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #faf7f2;
+}
+
+tr:hover {
+    background-color: #f1eee8;
+    cursor: pointer;
+}
+
+tr[style*="color: blue"] {
+    background-color: #d0e8ff !important;
+    color: #003366 !important;
+}
+
+tr[style*="color: red"] {
+    background-color: #ffe0e0 !important;
+    color: #990000 !important;
+}
+
+h3 {
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    margin: 6px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1565c0;
+    cursor: pointer;
+}
+
+.history-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.history-list li {
+    padding: 6px 0;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
